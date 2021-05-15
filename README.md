@@ -2,6 +2,7 @@
 Indexing helper for Kaminari pagination
 
 ## Instalation
+Add the following line to your Gemfile
 ```
 gem 'kaminari_indexing'
 ```
@@ -11,7 +12,7 @@ gem 'kaminari_indexing'
 kaminari_index index, per_page
 ```
 
-It will automatically check `params[:page]` and adjust index based on the given index and per_page. For example, getting index of 5th record with 10 records per page
+It will automatically check `params[:page]` and adjust index based on the given `index` and `per_page`. For example, getting index of 5th record with 10 records per page
 ```
 kaminari_index 5, 10
 
